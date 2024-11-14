@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 52.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #a7cc22, #cec518);
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  color: #100e0e;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+canvas {
+  border-radius: 10px;
+  width: 40rem;
+  height: 40rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 1.2rem 5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #fff;
+  color: #252424;
+  border: none;
+  border-radius: 0.5rem;
+}
+.arrow {
+  margin: 0.5rem 2rem;
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #252424;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: rgb(223, 8, 8);
+  color: #fff;
+  outline: none;
+  border: none;
+  transform: scale(0.95);
+
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 48%;
+  }
+}
